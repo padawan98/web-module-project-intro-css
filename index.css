@@ -1,0 +1,174 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+/*universal*/
+*
+{
+    text-align:center;
+}
+a
+{
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    text-decoration:none;
+    margin: 0 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+h1
+{
+    font-family: 'Chelsea Market', cursive;
+    font-size:275%;
+    letter-spacing:3px;
+}
+
+h2
+{
+    font-family: 'Roboto Mono', monospace;
+    font-size:100%;
+}
+
+p
+{
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+/*header*/
+
+header nav .plan
+{ 
+    
+    background-color:#FF764E;
+    border-radius: 20px;
+    display: inline-block;
+    margin:0 5%;
+}
+
+header nav .learn
+{
+    background-color:#5ED3EB;
+    border-radius: 20px;
+    display: inline-block;
+    margin:0 5%;
+}
+
+header nav .get
+{
+    background-color:#FFCD69;
+    border-radius: 20px;
+    display: inline-block;
+    margin:0 5%;
+}
+
+header img
+{
+    margin-left:50px;
+    padding:20px;
+    float:left;
+    margin-top:50px;
+    border-radius: 50%;
+    width:220px;
+}
+
+header .intro
+{
+    padding: 50px;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+
+/*about*/
+.about
+{
+    letter-spacing:-1px;
+    padding:1px 2%;
+    margin:0 5%;
+    background-color:#DDB9A3;
+    color:white;
+}
+
+/*warnings*/
+
+.fire 
+{
+    padding:20px 10px;
+}
+
+.fire img
+{
+    width:10%;
+}
+
+.fire p
+{
+    padding:0 35%;
+    font-size:75%;
+    /* font-weight:bold; */
+}
+
+.res 
+{
+    padding:20px 10px;
+}
+
+.res img
+{
+    width:10%;
+}
+
+.res p
+{
+    /* margin-top:-1px; */
+    padding:0 35%;
+    font-size:75%;
+    /* font-weight:bold; */
+}
+
+/*footer*/
+
+footer nav
+{
+    padding:20px 0;
+}
+
+footer nav .plan2
+{ 
+    background-color:#FF764E;
+    border-radius: 20px;
+    display: inline-block;
+    margin:0 5%;
+}
+
+footer nav .learn2
+{
+    background-color:#5ED3EB;
+    border-radius: 20px;
+    display: inline-block;
+    margin:0 5%;
+}
+
+footer nav .get2
+{
+    background-color:#FFCD69;
+    border-radius: 20px;
+    display: inline-block;
+    margin:0 5%;
+}
+
+footer img
+{
+    height:200px;
+    min-width:100%;
+    object-fit:cover;
+}
+
+footer
+{   
+    background-color:#F9E7DC;
+    margin:-6px -6px;
+}
